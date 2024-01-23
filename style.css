@@ -1,0 +1,63 @@
+body{
+    background:linear-gradient(135deg,red,darkred);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card{
+    width:90%;
+    max-width: 489px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.inputbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,235,0,0.5);
+    justify-content:space-between;
+    padding:10px;
+    margin:20px 0px;
+    font-size:17px;
+    cursor: pointer;
+}
+
+.inputbar img{
+    width:18px;
+}
+
+#listid{
+    background: rgba(255,235,0,0.5);
+    padding:5px 2px;
+}
+
+.lists{
+    visibility: hidden;
+}
+
+.listitem{
+    list-style:none;
+    display: flex;
+    cursor:pointer;
+   }
+
+.listitem p{
+    padding:2px 30px;
+    font-size:17px;
+}
+
+.listitem span img{
+    width:25px;
+    margin:15px 7px;
+}
+
+.listitem:hover{
+    background: rgba(255,235,0,0.5);
+}
+
+.rot{
+    rotate: 180deg;
+}
